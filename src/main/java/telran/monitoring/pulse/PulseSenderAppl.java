@@ -6,10 +6,10 @@ import java.util.stream.Stream;
 
 import telran.monitoring.pulse.dto.SensorData;
 public class PulseSenderAppl {
-private static final int N_PACKETS = 100;
-private static final long TIMEOUT = 500;
-private static final int N_PATIENTS = 1;
-private static final String HOST = "localhost";
+private static final int N_PACKETS = 200;
+private static final long TIMEOUT = 200;
+private static final int N_PATIENTS = 10;
+private static final String HOST = "3.25.232.141";
 private static final int PORT = 5000;
 private static Random random = new Random();
 private static ProperPulseSource[] patients;
